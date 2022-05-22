@@ -46,7 +46,7 @@ cdat.set_index('GeoName',inplace = True)
      #   print('Data Fetched')
     #except IndexError:
        # print('Invalid Address')
-#geo_data.to_csv('Data/StateCounty/scgeodata.csv')
+#geo.to_csv('Data/StateCounty/scgeodata.csv')
 
 gdp = pd.read_excel('Data/CountyMetro/AllData.xlsx', usecols ='B:C,E,G:AB').iloc[:-28,:]
 gdp = gdp[gdp['LineCode']==3]
