@@ -8,6 +8,9 @@
 #you'll need a gcp account with google geolocation API and your own Client key for the below to work. The key below is mapped to my IP
 #This is very much incomplete as I wanted to include the entire united states and add a fade effect. Almost like using a microscope and the only way to
 #see the information is by zooming in closer
+
+#Data Source: https://www.bea.gov/data/gdp/gdp-county-metro-and-other-areas
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
